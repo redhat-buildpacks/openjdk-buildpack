@@ -1,0 +1,14 @@
+# Buildpacks to include in builder
+[[buildpacks]]
+uri = "../../buildpacks/openjdk"
+
+[[order]]
+    [[order.group]]
+    id = "com.redhat.openjdk.buildpacks.buildpack"
+    version = "0.0.1"
+
+# Stack that will be used by the builder
+[stack]
+id = "com.redhat.openjdk.buildpacks.stack.jvm"
+run-image = "redhat/buildpacks-stack-openjdk-run:jvm"
+build-image = "redhat/buildpacks-stack-openjdk-build:jvm"

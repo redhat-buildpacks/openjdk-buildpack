@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+echo "- Testing for Pom:"
+if [[ ! -f pom.xml ]]; then 
+  exit 100
+else
+  echo "- Found."
+fi
+
