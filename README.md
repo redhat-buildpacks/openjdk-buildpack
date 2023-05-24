@@ -1,3 +1,6 @@
+> **Warning**
+> This is an *unsupported* and *unmaintained* prototype!
+
 # OpenJDK Buildpacks
 
 This are some WIP build stacks for building Java applications using supported images like Red Hat OpenJDK.
